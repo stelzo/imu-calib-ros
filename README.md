@@ -2,7 +2,7 @@
 
 A minimal ROS2 package for calibrating IMU intrinsics using Gravity on a flat surface. It is a wrapper around the [imu-calib](https://crates.io/crates/imu-calib) crate.
 
-The nodes are written in Rust, follow ½[this instructions](https://github.com/stelzo/ros-dev-setup/tree/main/rust) for installing the Rust + ROS2 toolchain.
+The nodes are written in Rust, follow [this instructions](https://github.com/stelzo/ros-dev-setup/tree/main/rust) for installing the Rust + ROS2 toolchain.
 
 ## Setup
 
