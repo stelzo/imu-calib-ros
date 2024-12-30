@@ -1,0 +1,17 @@
+[package]
+name = "imu-calib-ros"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+r2r = "0.9.4"
+futures-lite = "2.5"
+imu-calib = "0.1"
+
+[[bin]]
+name = "calibrate"
+path = "src/calibrate.rs"
+
+[[bin]]
+name = "apply"
+path = "src/apply.rs"
